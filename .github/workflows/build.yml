@@ -11,8 +11,7 @@ name: Deno Test AngularJs
 on:
   push:
     branches: ["main"]
-  workflow-dispatch:
-    branches: ["main"]
+  workflow_dispatch:
 
 permissions:
   contents: read
